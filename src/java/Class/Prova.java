@@ -7,12 +7,17 @@ package Class;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.persistence.*;
 
 /**
  *
  * @author Thais
  */
+
+@Entity
+@Table
 public class Prova {
     
-    List<Questao> Questao = new ArrayList<>();
+  
+    List<Questao> questoes = new ArrayList<>();
 }
